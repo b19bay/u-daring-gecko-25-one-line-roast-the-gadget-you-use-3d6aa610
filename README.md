@@ -9,7 +9,7 @@ up when an email is opened, as if the message might be heavy:
 
 > My laptop fan spins up when I open an email, like the message might be heavy.
 
-78 characters, one line, no trailing newline. `main.ts` writes it exactly to
+77 characters, one line, no trailing newline. `main.ts` writes it exactly to
 `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`), asserting the
 1–200 character gate first and verifying the write by reading the file back.
 
